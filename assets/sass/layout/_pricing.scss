@@ -1,0 +1,139 @@
+/** @format */
+
+.pricing_page {
+  width: 1440px;
+  height: 973px;
+  // background-color: $BG_sectoion1;
+  text-align: center;
+  // background-image: $background-image2;
+}
+
+.pricing_page-coverage {
+  text-align: center;
+  margin: 0;
+  padding-top: 160px;
+}
+
+.pricing_header {
+  font-family: $HEAD-FONT;
+  height: 64px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  margin: 0;
+}
+
+.pricing_info {
+  font-family: $primary_font;
+  height: 48px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  padding-top: 24px;
+}
+
+.pricing_option-button {
+  display: flex;
+  justify-content: center;
+  align-self: auto;
+  // width: 284px;
+  height: 48px;
+  padding-top: 40px;
+  padding-bottom: 72px;
+}
+
+.prcing_option-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: $primary_font;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 4px;
+}
+
+.pricing_page-plans {
+  padding-top: 78px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.pricing_page-basic {
+  width: 296px;
+  height: 437px;
+  border-radius: 8px;
+  background: $COLOR_BG;
+  transition: transform 0.2s;
+}
+
+.pricing_page-basic:hover {
+  transform: scale(1.2);
+}
+
+.pricing_page-plans-basic {
+  display: flex;
+  justify-content: center;
+  padding-top: 27px;
+  padding-bottom: 16px;
+}
+
+.pricing_page-plans-basic-icon {
+  width: 104px;
+  height: 104px;
+  background: $COLOR_SECONDARY;
+  border-radius: 8px;
+}
+
+.pricing_icons {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+}
+
+.pricing_page-plans-basic-name {
+  width: 128px;
+  height: 32px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: $COLOR_BLACK;
+  font-family: $HEAD-FONT;
+}
+
+.pricing_page-plans-basic-amount {
+  width: 128px;
+  height: 64px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 64px;
+  color: $COLOR_TEXT;
+}
+
+hr.solid {
+  border-top: 3px solid rgb(255, 255, 255);
+  width: 240px;
+  border: 1px solid #ffffff;
+  padding-bottom: 16px;
+}
+
+.basic_package-benefits-lists {
+  width: 248px;
+  height: 152px;
+  // line-height: 100%;
+  // list-style: none;
+  // display: block;
+}
+
+.basic_benefits {
+  width: 232px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: $primary_font;
+  color: $COLOR_BLACK;
+  margin-left: 20px;
+}

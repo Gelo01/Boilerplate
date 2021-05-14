@@ -1,0 +1,95 @@
+/** @format */
+
+.container_first {
+  background-color: $BACKG_COLOR;
+  // background-image: background-color: #25202b;
+  background-image: $background_image;
+  background-attachment: fixed;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+  transition: transform 0.2s;
+}
+
+.company_works-itro {
+  width: 622px;
+  height: 80px;
+  padding-top: 200px;
+  margin: 0 auto;
+}
+
+.company_works-itro-title {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: $COLOR_TEXT;
+  font-family: $HEAD-FONT;
+  transform: translate(0, -50%);
+}
+
+.company_works-info {
+  width: 600px;
+  height: 24px;
+  padding-top: 70px;
+  margin: 0 auto;
+}
+
+.company_works-info-subtitle {
+  font-family: $primary_font;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.container_first-btn {
+  height: 53px;
+  padding-top: 44px;
+  display: flex;
+  justify-content: center;
+}
+
+.container_soc_media {
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  gap: 30px;
+}
+
+.soc_media-link {
+  font-family: $primary_font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #60a3d9;
+  padding-bottom: 56px;
+}
+
+.flex-container {
+  display: flex;
+  padding-top: 56px;
+  justify-content: space-between;
+}
+
+.flex-item {
+  width: 470px;
+  height: 240px;
+  background: #bfd7ed;
+  border-radius: 8px;
+}
+
+.image_placeholder_box-image {
+  width: 470px;
+  height: 240px;
+  transition: transform 0.2s;
+}
+
+.image_placeholder_box-image:hover {
+  transform: scale(1.5);
+}
